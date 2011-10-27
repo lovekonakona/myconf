@@ -128,8 +128,8 @@ endif
 let g:use_zen_complete_tag = 1
 
 " 缩进
-noremap <S-Tab> <C-o><<
-noremap <Tab> <C-o>>>
+noremap <S-Tab> <<
+noremap <Tab> >>
 inoremap <S-Tab> <C-o><<
 vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
